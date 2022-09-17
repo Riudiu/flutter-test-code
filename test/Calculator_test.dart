@@ -10,17 +10,17 @@ void main() {
     Calculator cal = Calculator();
 
     ///더하기
-    test('add should be equal to a + b', () {
+    test('덧셈 테스트', () {
       expect(cal.add(100, 200), 300);
     });
 
     ///빼기
-    test('minus should be equal to a - b', () {
+    test('뺄셈 테스트', () {
       expect(cal.minus(50, 20), 30);
     });
 
     ///제곱하기
-    test('add should be equal to a * a', () {
+    test('제곱 테스트', () {
       expect(cal.square(10), 10 * 10);
     });
   });
